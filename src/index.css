@@ -1,0 +1,51 @@
+/* prevent Tailwind reset inside primereact components */
+.prime-react-scope * {
+  all: revert;
+}
+
+
+/* index.css */
+.p-checkbox-box {
+  border: 1px solid #d1d5db !important; /* gray-300 */
+}
+
+/* index.css or App.css */
+.p-datatable .p-datatable-tbody > tr > td {
+  border-bottom: 1px solid #e5e7eb; /* Tailwind gray-200 */
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  border-bottom: 2px solid #d1d5db; /* slightly darker gray */
+}
+
+/* Darken row on hover */
+.p-datatable .p-datatable-tbody > tr:hover > td {
+  background-color: #f3f4f6; /* Tailwind gray-300 or pick any dark shade */
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Paginator page buttons */
+
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+ 
+  
+  border-radius: 1rem; /* rounded corners */
+  transition: background-color 0.2s;
+}
+
+/* Hover state */
+.p-paginator .p-paginator-pages .p-paginator-page:hover {
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+}
+
+/* Active page */
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  color: #fff;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
