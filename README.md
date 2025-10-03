@@ -34,6 +34,15 @@
 
 ---
 
+## 🚀 Live Demo
+<p align="center">
+  <a href="[https://growme-dashboard.netlify.app/](https://growme-dashboard.netlify.app/)">
+    <img src="https://img.shields.io/badge/🔗%20Live%20Demo-GrowMe%20AI-blue?style=for-the-badge&logo=netlify" alt="Live Demo" />
+  </a>
+</p>
+
+---
+
 ## 🌟 Project Overview
 
 **GrowMe Dashboard** is a **ReactJS-based web application** designed to help you manage and monitor large datasets efficiently. The dashboard provides an interactive and responsive UI with **Tailwind CSS** and **PrimeReact**, featuring advanced data table functionalities.  
