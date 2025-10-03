@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="/logo.png" alt="GrowMe Logo" width="120" />
-  <img width="120" height="50" alt="bar-graph" src="https://github.com/user-attachments/assets/df0a73fb-5550-4f0d-b3cd-f49420076ed5" />
+  
+  <img width="120" height="100" alt="bar-graph" src="https://github.com/user-attachments/assets/df0a73fb-5550-4f0d-b3cd-f49420076ed5" />
   
 </p>
 
