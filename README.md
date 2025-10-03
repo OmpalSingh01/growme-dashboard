@@ -36,8 +36,8 @@
 
 ## 🚀 Live Demo
 <p align="center">
-  <a href="[https://growme-dashboard.netlify.app/](https://growme-dashboard.netlify.app/)">
-    <img src="https://img.shields.io/badge/🔗%20Live%20Demo-GrowMe%20AI-blue?style=for-the-badge&logo=netlify" alt="Live Demo" />
+  <a href="https://growme-dashboard.netlify.app/">
+    <img src="https://img.shields.io/badge/🔗%20Live%20Demo-GrowMe%20Dashboard-blue?style=for-the-badge&logo=netlify" alt="Live Demo" />
   </a>
 </p>
 
