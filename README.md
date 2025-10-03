@@ -4,7 +4,7 @@
 
 <h1 align="center">GrowMe Dashboard</h1>
 
-<p align="center">
+
  [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/) 
 [![Netlify](https://img.shields.io/badge/Deploy-Netlify-green?logo=netlify&logoColor=white)](https://app.netlify.com/) 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=google-chrome&logoColor=white)](https://growme-dashboard.netlify.app/) 
@@ -12,7 +12,7 @@
 [![VS Code](https://img.shields.io/badge/VS%20Code-Editor-0078d7?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-</p>
+
 
 ---
 
