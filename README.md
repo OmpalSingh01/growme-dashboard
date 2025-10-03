@@ -1,6 +1,6 @@
 <p align="center">
   <img src="logo.png" alt="GrowMe Logo" width="120" />
-  <h1>GrowMe Dashboard</h1>
+  <h1 align="centre" >GrowMe Dashboard</h1>
   <br />
   
   [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white&style=for-the-badge&logoWidth=40)](https://reactjs.org/) 
