@@ -1,19 +1,17 @@
 <p align="center">
-  <img src="/logo.png" alt="GrowMe Logo" width="100" />
-</p>
-
-<h1 align="center">GrowMe Dashboard</h1>
-
-<p align="center">
+  <img src="logo.png" alt="GrowMe Logo" width="120" />
+  <h1>GrowMe Dashboard</h1>
+  <br />
   
-  [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/) 
-  [![Netlify](https://img.shields.io/badge/Deploy-Netlify-green?logo=netlify&logoColor=white)](https://app.netlify.com/) 
-  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=google-chrome&logoColor=white)](https://growme-dashboard.netlify.app/) 
-  [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)](https://github.com/yourusername/growme-dashboard) 
-  [![VS Code](https://img.shields.io/badge/VS%20Code-Editor-0078d7?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/) 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white&style=for-the-badge&logoWidth=40)](https://reactjs.org/) 
+  [![Netlify](https://img.shields.io/badge/Deploy-Netlify-green?logo=netlify&logoColor=white&style=for-the-badge&logoWidth=40)](https://app.netlify.com/) 
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=google-chrome&logoColor=white&style=for-the-badge&logoWidth=40)](https://growme-dashboard.netlify.app/) 
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white&style=for-the-badge&logoWidth=40)](https://github.com/yourusername/growme-dashboard) 
+  [![VS Code](https://img.shields.io/badge/VS%20Code-Editor-0078d7?logo=visual-studio-code&logoColor=white&style=for-the-badge&logoWidth=40)](https://code.visualstudio.com/) 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
   
 </p>
+
 
 ---
 
