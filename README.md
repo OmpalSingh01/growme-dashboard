@@ -1,7 +1,10 @@
 <p align="center">
-  <img src="logo.png" alt="GrowMe Logo" width="100" />
-  <h1>GrowMe Dashboard</h1>
-  <br />
+  <img src="/logo.png" alt="GrowMe Logo" width="100" />
+</p>
+
+<h1 align="center">GrowMe Dashboard</h1>
+
+<p align="center">
   
   [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/) 
   [![Netlify](https://img.shields.io/badge/Deploy-Netlify-green?logo=netlify&logoColor=white)](https://app.netlify.com/) 
@@ -11,9 +14,6 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 </p>
-
-
-
 
 ---
 
