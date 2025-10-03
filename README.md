@@ -1,73 +1,62 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="/logo.png" alt="GrowMe Logo" width="100" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">GrowMe Dashboard</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/) 
+  [![Netlify](https://img.shields.io/badge/Deploy-Netlify-green?logo=netlify&logoColor=white)](https://app.netlify.com/) 
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=google-chrome&logoColor=white)](https://growme-dashboard.netlify.app/) 
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)](https://github.com/yourusername/growme-dashboard) 
+  [![VS Code](https://img.shields.io/badge/VS%20Code-Editor-0078d7?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/) 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+GrowMe Dashboard is a **ReactJS-based web application** designed for managing and monitoring data efficiently. It includes features like:
 
-## Expanding the ESLint configuration
+- Paginated and selectable data tables
+- Row selection across pages
+- Interactive UI with Tailwind CSS & PrimeReact
+- Overlay panel for bulk row selection
+- Responsive and modern dashboard layout
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Select/Deselect Rows**: Quickly select rows on current page or across all pages.
+- **Bulk Selection**: Select N rows across all pages using input overlay.
+- **Responsive Table**: Works on all devices with gridlines and pagination.
+- **Live Data Fetching**: Lazy-loaded data from external API (Art Institute of Chicago).
+- **Modern UI**: Tailwind CSS + PrimeReact components with smooth transitions.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Frontend**: ReactJS, TypeScript, Tailwind CSS, PrimeReact, Axios
+- **Deployment**: Netlify
+- **Icons**: PrimeIcons
+- **Version Control**: Git & GitHub
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/growme-dashboard.git
+
+# Navigate to project folder
+cd growme-dashboard
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
